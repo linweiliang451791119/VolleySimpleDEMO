@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StringActivity"
+        android:id="@+id/btnString"
+
+        android:onClick="gotoStringModule" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JSONActivity"
+        android:id="@+id/btnJSON"
+
+        android:onClick="gotoJSONModule" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ImageActivity"
+        android:id="@+id/btnImage"
+
+        android:onClick="gotoImageModule" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ImageLoaderActivity"
+        android:id="@+id/btnImageLoader"
+
+        android:onClick="gotoImageLoaderModule" />
+</LinearLayout>
